@@ -14,8 +14,8 @@ A 2D RPG engine built from scratch in C99 on POSIX, with a focus on performance 
 ### Instructions
 ```shell
 # Clone the repository
-git clone [your-repo-url]
-cd [your-project-name]
+git clone github.com/shreyasganesh0/rpg-rifxiz 
+cd rpg-rifxiz 
 
 # Build the debug version
 make debug
