@@ -5,9 +5,9 @@ TARGET=engine
 all:$(TARGET)
 
 $(TARGET): src/main.c 
-	@clang -std=c99 -Wall -Wextra -Wpedantic -Werror src/main.c -o bin/$(TARGET)
+	@clang -Wall -Wextra -Wpedantic -Werror src/main.c -o bin/$(TARGET)
 
-run:
+run: bin/$(TARGET)
 	@bin/engine
 
 clean:
